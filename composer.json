@@ -1,0 +1,13 @@
+{
+  "name": "daniel-de-wit/php-cs-fixer-rules",
+  "description": "PHP-CS-Fixer Ruleset",
+  "license": "MIT",
+  "require": {
+    "friendsofphp/php-cs-fixer": "^3.3"
+  },
+  "autoload": {
+    "files": [
+      "./src/helpers.php"
+    ]
+  }
+}
