@@ -19,7 +19,7 @@ composer require --dev daniel-de-wit/php-cs-fixer-rules
 
 ## Usage
 
-Add `.php-cs-fixer.dist` with directories and optional custom rules.
+Add `.php-cs-fixer.dist.php` with directories and optional custom rules.
 
 ```php
 <?php
