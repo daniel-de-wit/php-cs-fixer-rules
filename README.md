@@ -22,6 +22,8 @@ composer require --dev daniel-de-wit/php-cs-fixer-rules
 Add `.php-cs-fixer.dist` with directories and optional custom rules.
 
 ```php
+<?php
+
 $finder = PhpCsFixer\Finder::create()
   ->in([
     __DIR__.'/app',
