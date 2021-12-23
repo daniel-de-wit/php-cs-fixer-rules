@@ -29,4 +29,7 @@ return [
             'parameters',
         ],
     ],
+    'concat_space' => [
+        'spacing' => 'one',
+    ],
 ];
