@@ -38,6 +38,20 @@ $customRules = [];
 return DanielDeWit\phpcsfixer($finder, $customRules);
 ```
 
+## Composer Script
+
+Update `composer.json` with script.
+
+```php
+{
+    "scripts": {
+        "php-cs-fixer": [
+            "vendor/bin/php-cs-fixer fix"
+        ]
+    }
+}
+```
+
 ## Credits
 
 - [Daniel de Wit](https://github.com/daniel-de-wit)
