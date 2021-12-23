@@ -17,7 +17,7 @@ You can install the package via composer:
 composer require --dev daniel-de-wit/php-cs-fixer-rules
 ```
 
-## Usage
+## Configuration
 
 Add `.php-cs-fixer.dist.php` with directories and optional custom rules.
 
@@ -37,6 +37,15 @@ $customRules = [];
  
 return DanielDeWit\phpcsfixer($finder, $customRules);
 ```
+
+## Usage
+
+Automatically fix all files.
+
+```bash
+vendor/bin/php-cs-fixer fix
+```
+
 
 ## Composer Script
 
