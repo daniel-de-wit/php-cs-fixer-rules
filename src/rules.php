@@ -33,6 +33,8 @@ return [
         'spacing' => 'one',
     ],
     'single_line_comment_style' => [
-        'comment_types' => 'hash',
+        'comment_types' => [
+            'hash',
+        ],
     ],
 ];
